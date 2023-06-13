@@ -9,6 +9,13 @@ export const FormStyled = styled.section`
     align-items: center;
     justify-content: center;
     
+    .icon {
+        color: var(--black);
+        font-size: 40px;
+        position: absolute;
+        top: 32px;
+        right: 32px;
+    }
 
     form {
         width: 90%;

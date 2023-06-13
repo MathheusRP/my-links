@@ -1,11 +1,13 @@
 import { FormStyled } from "../../styles/styled";
 import { Input } from "../../components/input";
 import { Link } from 'react-router-dom'
+import { IoHome } from 'react-icons/io5'
 
 export const LoginPage = () => {
 
     return (
         <FormStyled>
+            <Link to={'/home'} className='icon'><IoHome /></Link>
             <form>
                 <h1>Login</h1>
                 <Input
