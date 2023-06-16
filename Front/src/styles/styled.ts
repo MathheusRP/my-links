@@ -4,7 +4,6 @@ export const FormStyled = styled.section`
 
     height: 100vh;
     width: 100vw;
-    background-color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;

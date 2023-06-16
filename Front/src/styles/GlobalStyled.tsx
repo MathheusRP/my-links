@@ -10,6 +10,11 @@ export const GlobalStyled = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    body {
+        background-color: #C8C8C8;
+        overflow-x: hidden;
+    }
+
     a, p, button, input, textarea, input, label, h1, h2, h3, h4, b {
         font-family: 'Lato', sans-serif;
     }

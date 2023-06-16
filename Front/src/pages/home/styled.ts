@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const HomeStyled = styled.section`
-
-    min-height: 100vh;
+    min-height: min-content;
     width: 100vw;
-    background-color: var(--white);
     display: flex;
     justify-content: center;
 
@@ -12,7 +10,6 @@ export const HomeStyled = styled.section`
         width: 90%;
         max-width: 600px;
         height: 500px;
-        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
     }
@@ -24,7 +21,6 @@ export const HomeStyled = styled.section`
         flex-direction: column;
         align-items: center;
         position: relative;
-        /* background-color: aqua; */
         height: 430px;
 
         .cover {
@@ -46,7 +42,6 @@ export const HomeStyled = styled.section`
             align-items: center;
             gap: 8px;
             bottom: -80px;
-            
 
             img {
                 width: 100px;
@@ -67,13 +62,11 @@ export const HomeStyled = styled.section`
                 line-height: 20px;
                 font-size: 16px;
                 letter-spacing: 1.8px;
-                /* height: 120px; */
-                
             }
         }
     }
 
-    .options {
+    .nav {
         width: 100%;
         max-width: 600px;
         border-top: solid 4px var(--black);
@@ -93,6 +86,7 @@ export const HomeStyled = styled.section`
         margin-top: 32px;
         width: 100%;
         max-width: 600px;
+        position: relative;
         /* border: 2px solid red; */
     }
 
