@@ -1,10 +1,12 @@
 import { LinksStyled } from "./styled";
+import { Select } from "../select";
 
 export const ListLinks = () => {
 
     return (
         <LinksStyled>
-            <h2>Links</h2>
+            <Select />
+            <Select />
         </LinksStyled>
     )
 }

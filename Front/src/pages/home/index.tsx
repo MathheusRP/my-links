@@ -19,7 +19,7 @@ export const Home = () => {
                         </p>
                     </div>
                 </section>
-                <section className="options">
+                <section className="nav">
                     <Link to='links'>Links</Link>
                     <Link to='photos'>Photos</Link>
                     <Link to='save'>Save</Link>
