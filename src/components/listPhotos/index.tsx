@@ -1,6 +1,5 @@
 import { ListPhotoStyled } from "./styled";
 import { IoAddCircleOutline } from 'react-icons/io5'
-import add from '../../assets/img/add-icon.svg'
 import { Outlet } from "react-router-dom";
 
 export const ListPhotos = () => {
