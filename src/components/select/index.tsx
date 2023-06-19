@@ -3,21 +3,6 @@ import { AiFillFacebook, AiFillYoutube, AiFillInstagram, AiFillLinkedin } from '
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { useState } from 'react'
 
-interface ILinkSelect {
-    id: string
-    name: string
-    link: string
-    description: string
-    icon: any
-}
-
-interface ISelect {
-    id: string
-    title: string
-    list: ILinkSelect[]
-    icon: any
-}
-
 export const Select = () => {
 
     const [selectStatus, setSelectStatus] = useState<'open' | 'close'>('close')
