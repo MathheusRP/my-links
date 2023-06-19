@@ -8,6 +8,9 @@ export const SelectStyled = styled.div`
     position: relative;
     align-items: center;
     gap: 24px;
+    height: max-content;
+    height: 50px;
+    /* background-color: blue; */
 
     .title {
         border: 4px solid var(--black);
@@ -41,11 +44,12 @@ export const SelectStyled = styled.div`
     }
 
     .options {
-
+        /* height: 0px; */
         width: 80%;
-        display: none;
+        display: inline-flex;
         flex-direction: column;
         gap: 12px;
+        opacity: 0%;
 
         a {
             display: flex;
@@ -78,6 +82,8 @@ export const SelectStyled = styled.div`
     }
 
     &.open {
+        height: fit-content;
+
         .title {
             
             &::before {
@@ -89,6 +95,8 @@ export const SelectStyled = styled.div`
 
         .options {
             display: flex;
+            opacity: 100%;
+            transition: 1s;
         }
     }
 

@@ -78,7 +78,12 @@ export const HomeStyled = styled.section`
             color: var(--black);
             font-size: 20px;
             font-weight: 600;
+            transition: 0.5s;
             
+            &:hover {
+                transition: 0.5s;
+                color: var(--blue);
+            }
         }
     }
 
