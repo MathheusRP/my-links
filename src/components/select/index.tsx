@@ -40,6 +40,7 @@ export const Select = () => {
             </div>
 
             <div className='options'>
+                <button type='button'>Add link</button>
                 <a href="">
                     <AiFillFacebook className='icon' />
                     <p>Facebook</p>
@@ -56,7 +57,7 @@ export const Select = () => {
                     <AiFillLinkedin className='icon' />
                     <p>LinkedIn</p>
                 </a>
-                <button type='button'>Add link</button>
+
             </div>
         </SelectStyled>
     )

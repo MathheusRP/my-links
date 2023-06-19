@@ -3,6 +3,9 @@ import { LoginPage } from './pages/login'
 import { Register } from './pages/register'
 import { Home } from './pages/home'
 import { ListLinks } from './components/links'
+import { ListPhotos } from './components/listPhotos'
+import { OpenImage } from './components/openImage'
+
 
 function App() {
 
@@ -13,8 +16,10 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/home' element={<Home />}>
           <Route path='links' element={<ListLinks />} />
-          <Route path='photos' element={<h2>Photos</h2>} />
-          <Route path='save' element={<h2>save</h2>} />
+          <Route path='photos' element={<ListPhotos />}>
+            <Route path='teste' element={<OpenImage />} />
+          </Route>
+          <Route path='save' element={<h1>teste</h1>} />
         </Route>
       </Routes>
     </>
